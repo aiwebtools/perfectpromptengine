@@ -1,7 +1,7 @@
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Toaster } from "sonner";
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import VideoSection from '@/components/VideoSection';
@@ -11,9 +11,23 @@ import Testimonials from '@/components/Testimonials';
 import Faq from '@/components/Faq';
 import Disclaimer from '@/components/Disclaimer';
 import Footer from '@/components/Footer';
+import DisclaimerPopup from '@/components/DisclaimerPopup';
 
 const Index = () => {
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
+  
   useEffect(() => {
+    // Check if the user has already agreed to the disclaimer
+    const hasAgreed = localStorage.getItem('disclaimerAgreed') === 'true';
+    if (!hasAgreed) {
+      // Show disclaimer after a short delay for better UX
+      const timer = setTimeout(() => {
+        setShowDisclaimer(true);
+      }, 1000);
+      
+      return () => clearTimeout(timer);
+    }
+    
     // Add smooth scrolling behavior
     const handleNavLinkClick = (e: MouseEvent) => {
       const target = e.target as HTMLAnchorElement;
@@ -72,6 +86,13 @@ const Index = () => {
           Perfect Prompt Engine
         </motion.div>
       </motion.div>
+      
+      {/* Disclaimer Popup */}
+      <AnimatePresence>
+        {showDisclaimer && (
+          <DisclaimerPopup onClose={() => setShowDisclaimer(false)} />
+        )}
+      </AnimatePresence>
     </div>
   );
 };
