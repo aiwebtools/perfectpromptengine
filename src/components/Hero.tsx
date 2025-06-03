@@ -48,7 +48,7 @@ const Hero = () => {
               className="mb-4"
             >
               <span className="chip bg-cyber-blue/20 text-cyber-blue border border-cyber-blue/30">
-                AI PROMPT OPTIMIZATION
+                FREE AI TOOLS & PROMPT OPTIMIZATION
               </span>
             </motion.div>
             
@@ -58,8 +58,8 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"
             >
-              <span className="block mb-2">Break the Chains of</span>
-              <span className="text-gradient cyber-glow animate-pulse-glow">Prompt Limitations</span>
+              <span className="block mb-2">Perfect Prompt Engine</span>
+              <span className="text-gradient cyber-glow animate-pulse-glow">Free AI Tools for Everyone</span>
             </motion.h1>
             
             <motion.p
@@ -68,7 +68,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-zinc-300 text-lg md:text-xl mb-8 max-w-xl mx-auto lg:mx-0"
             >
-              Transform your basic prompts into powerful, detailed instructions that unlock AI's full potential. Get more precise, comprehensive responses every time.
+              Transform your basic prompts into powerful, detailed instructions that unlock AI's full potential. Get more precise, comprehensive responses from ChatGPT, Claude, and all AI assistants with our free AI web tools.
             </motion.p>
             
             <motion.div
@@ -82,16 +82,27 @@ const Hero = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="cyber-button text-base sm:text-lg py-3 px-8"
+                aria-label="Use Perfect Prompt Engine - Free AI Tool"
               >
                 <Zap className="inline-block mr-2 -mt-1" size={18} />
-                USE PERFECT PROMPT ENGINE NOW
+                USE FREE AI TOOL NOW
               </a>
               <a 
                 href="#how-it-works" 
                 className="px-6 py-3 rounded-md border border-white/10 bg-white/5 hover:bg-white/10 transition-colors text-base sm:text-lg"
+                aria-label="Learn how our AI tools work"
               >
                 Learn More
               </a>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.8 }}
+              className="mt-8 text-zinc-400 text-sm"
+            >
+              <p>🚀 <strong>100% Free AI Tools</strong> • 🎯 <strong>Works with all AI platforms</strong> • ⚡ <strong>Instant optimization</strong></p>
             </motion.div>
           </div>
           
@@ -116,18 +127,18 @@ const Hero = () => {
                   <div className="h-3 w-3 rounded-full bg-green-500"></div>
                   <div className="ml-auto flex items-center">
                     <Sparkles className="text-cyber-blue mr-2" size={16} />
-                    <span className="text-xs text-cyber-blue">Perfect Prompt Engine</span>
+                    <span className="text-xs text-cyber-blue">AI Prompt Optimizer</span>
                   </div>
                 </div>
                 
                 <div className="space-y-5">
                   <div className="bg-black/30 rounded-lg p-4">
-                    <p className="text-zinc-400 text-sm mb-2">User prompt:</p>
+                    <p className="text-zinc-400 text-sm mb-2">Basic prompt:</p>
                     <p className="text-white">Tell me about quantum computing</p>
                   </div>
                   
                   <div className="glass-panel rounded-lg p-4 border-cyber-blue/20">
-                    <p className="text-cyber-blue text-sm mb-2">Optimized prompt:</p>
+                    <p className="text-cyber-blue text-sm mb-2">AI-optimized prompt:</p>
                     <p className="text-white">
                       <span className="text-gradient font-medium">Provide a comprehensive explanation of quantum computing</span>, covering its fundamental principles, how qubits differ from classical bits, key quantum algorithms (Shor's, Grover's), current technological implementations, major challenges in the field, potential real-world applications, and how it might revolutionize fields like cryptography, medicine, and artificial intelligence. Include both technical aspects and practical implications for the future.
                     </p>
@@ -137,7 +148,7 @@ const Hero = () => {
                     <div className="flex justify-end">
                       <div className="chip bg-cyber-teal/20 text-cyber-teal border border-cyber-teal/30 flex items-center">
                         <Key size={12} className="mr-1" />
-                        10x more detailed response
+                        10x better AI responses
                       </div>
                     </div>
                   </div>
