@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion';
 const VideoSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(containerRef, { once: true, amount: 0.3 });
-  const videoId = 'LHaPL2oBUmY';
+  const videoId = 'M1PQHKrzKd8';
   
   return (
     <div className="bg-black/30 section-padding" id="video">
