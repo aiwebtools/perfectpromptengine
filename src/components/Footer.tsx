@@ -65,7 +65,7 @@ const Footer = () => {
             
             <div className="mt-8">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-5 py-2 rounded-full bg-gradient-to-r from-cyber-purple to-cyber-blue text-white font-medium"
