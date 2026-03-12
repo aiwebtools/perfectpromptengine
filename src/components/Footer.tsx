@@ -44,7 +44,7 @@ const Footer = () => {
                 <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-cyber-blue transition-colors">Privacy Policy</a>
               </li>
               <li>
-                <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-cyber-blue transition-colors">Terms of Service</a>
+                <a href="https://aiwebtools.lovable.app/terms-of-services?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-cyber-blue transition-colors">Terms of Service</a>
               </li>
             </ul>
           </div>
