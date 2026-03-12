@@ -26,7 +26,7 @@ const Logo = ({ size = 'md' }: LogoProps) => {
           Perfect Prompt Engine
         </span>
         <div className={`text-xs ${size === 'sm' ? 'text-[10px]' : ''} text-zinc-400 mt-[-2px]`}>
-          Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-teal transition-colors">AiWebTools.Ai</a>
+          Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-teal transition-colors">AiWebTools.Ai</a>
         </div>
       </div>
     </div>

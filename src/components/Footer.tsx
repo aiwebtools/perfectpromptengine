@@ -38,13 +38,13 @@ const Footer = () => {
                 <a href="#disclaimer" className="text-zinc-400 hover:text-cyber-blue transition-colors">Disclaimer</a>
               </li>
               <li>
-                <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-cyber-blue transition-colors">More AI Tools</a>
+                <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-cyber-blue transition-colors">More AI Tools</a>
               </li>
               <li>
                 <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-cyber-blue transition-colors">Privacy Policy</a>
               </li>
               <li>
-                <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-cyber-blue transition-colors">Terms of Service</a>
+                <a href="https://aiwebtools.lovable.app/terms-of-services?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-cyber-blue transition-colors">Terms of Service</a>
               </li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ const Footer = () => {
             
             <div className="mt-8">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-5 py-2 rounded-full bg-gradient-to-r from-cyber-purple to-cyber-blue text-white font-medium"
@@ -78,7 +78,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-zinc-500 text-sm text-center md:text-left">
-            <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-cyber-blue transition-colors">
+            <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-cyber-blue transition-colors">
               &copy; {currentYear} AI WEB TOOLS LLC. All rights reserved.
             </a>
           </p>
