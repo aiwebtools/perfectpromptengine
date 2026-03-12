@@ -78,7 +78,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-zinc-500 text-sm text-center md:text-left">
-            <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-cyber-blue transition-colors">
+            <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-cyber-blue transition-colors">
               &copy; {currentYear} AI WEB TOOLS LLC. All rights reserved.
             </a>
           </p>

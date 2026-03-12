@@ -22,7 +22,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'FAQ', href: '#faq' },
     { name: 'Disclaimer', href: '#disclaimer' },
-    { name: 'More AI Tools', href: 'https://www.aiwebtools.ai', external: true },
+    { name: 'More AI Tools', href: 'https://aiwebtools.lovable.app/?via=aiwebtools', external: true },
   ];
 
   return (
